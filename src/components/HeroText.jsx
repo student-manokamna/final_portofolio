@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FlipWords } from "./flipWords.jsx";
+import FlipWords  from "./flipWords";
 import { Upload, Download } from "lucide-react";
 
 const HeroText = () => {
