@@ -69,7 +69,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-ayatem-jpg",
+    image: "/assets/projects/auth-system.jpg",
     tags: [
       { id: 1, name: "Backend", path: "/assets/logos/blazor-pink.png" },
       { id: 2, name: "API", path: "/assets/logos/azure.svg" },
@@ -78,3 +78,22 @@ export const myProjects = [
     ],
   },
 ];
+export const skills = [
+  { id: 1, name: "C++", img: "/assets/skills/cpp.png" },
+  { id: 2, name: "Python", img: "/assets/skills/python.png" },
+  { id: 3, name: "JavaScript", img: "/assets/skills/javascript.svg" },
+  { id: 4, name: "HTML", img: "/assets/skills/html5.svg" },
+  { id: 5, name: "CSS", img: "/assets/skills/css3.svg" },
+  { id: 6, name: "React", img: "/assets/skills/react.svg" },
+  { id: 7, name: "Redux", img: "/assets/skills/redux.svg" },
+  { id: 8, name: "MongoDB", img: "/assets/skills/mongodb.svg" },
+  { id: 9, name: "NumPy", img: "/assets/skills/numpy.png" },
+  { id: 10, name: "Pandas", img: "/assets/skills/pandas.png" },
+  { id: 11, name: "Matplotlib", img: "/assets/skills/matplotlib.png" },
+  { id: 12, name: "Seaborn", img: "/assets/skills/seaborn.png" },
+  { id: 13, name: "Frontend", img: "/assets/skills/frontend.png" },
+  { id: 14, name: "Backend", img: "/assets/skills/backend.png" },
+  { id: 15, name: "Tailwindcss", img: "/assets/skills/tailwindcss.svg" },
+
+];
+

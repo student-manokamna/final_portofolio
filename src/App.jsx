@@ -1,18 +1,20 @@
-import React from 'react'
-import Navbar from './section/Navbar'
-import Hero from './section/Hero'
-import About from './section/About'
-import Projects from './section/Projects'
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+  // You will create this
+import Contact from './section/Contact';   // Already exists
+import HomePage from './HomePage';
 
 const App = () => {
   return (
-    <div className="conatiner mx-auto  max-w-7xl">
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Projects/>
-    </div>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
